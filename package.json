@@ -2,7 +2,7 @@
     "name": "gitbook-plugin-toolbar-button",
     "description": "GitBook Plugin to add a link button on every page.",
     "main": "index.js",
-    "version": "2.0.2",
+    "version": "0.0.1",
     "author": "rtCamp <pierrereimertz@gmail.com>",
     "contributors": [
        {
