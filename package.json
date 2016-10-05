@@ -1,0 +1,54 @@
+{
+    "name": "gitbook-plugin-toolbar-button",
+    "description": "GitBook Plugin to add a link button on every page.",
+    "main": "index.js",
+    "version": "2.0.2",
+    "author": "rtCamp <pierrereimertz@gmail.com>",
+    "contributors": [
+       {
+            "name": "Rahul Bansal",
+            "email": "rahul.bansal@rtcamp.com"
+        },
+        {
+            "name": "Samy Pessé",
+            "email": "samy@gitbook.com"
+        }
+    ],
+    "engines": {
+        "gitbook": ">=2.5.0"
+    },
+    "homepage": "https://github.com/reimertz/gitbook-toolbar-button",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/reimertz/gitbook-toolbar-button.git"
+    },
+    "license": "Apache-2.0",
+    "bugs": {
+        "url": "https://github.com/reimerz/gitbook-toolbar-button/issues"
+    },
+    "keywords": [
+        "gitbook",
+        "plugin",
+        "edit-with",
+        "github"
+    ],
+    "gitbook": {
+        "properties": {
+            "icon": {
+                "type": "string",
+                "title": "font awesome icon. ex:  'fa-globe'",
+                "required": true
+            },
+            "url": {
+                "type": "string",
+                "title": "Url for the button",
+                "required": true
+            },
+            "label": {
+                "type": [ "string", "object" ],
+                "title": "Label for the edit button",
+                "default": ""
+            }
+        }
+    }
+}
