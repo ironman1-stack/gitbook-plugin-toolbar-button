@@ -9,6 +9,7 @@ require(["gitbook", "jQuery"], function(gitbook, $) {
         gitbook.toolbar.createButton({
             icon: 'fa ' + (icon || 'fa fa-edit'),
             text: label,
+            position: 'right',
             onClick: function() {
                 window.open(url);
             }
